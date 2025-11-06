@@ -275,7 +275,7 @@ ul input:focus{
   width: 304px;
   height: 464px;
   margin-top: 40px;
-  transition: 0.4s;
+  transition: 0.2s;
 }
 .tovar1:hover{
   background-color: rgba(189, 189, 189, 0.4);
