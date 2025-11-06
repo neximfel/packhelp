@@ -213,11 +213,10 @@ ul input:focus{
   color: #2F2F2F;
 }
 .container2{
-  width: 90%;
   display: flex;
   align-items: center;
   margin-top: 32px;
-  margin-left: 7%;
+  margin: 0 7%;
   justify-content: space-between;
 }
 .buttons1{
@@ -251,8 +250,7 @@ ul input:focus{
 }
 .mini_zogolovok{
   display: flex;
-  width: 90%;
-  margin-left: 7%;
+  margin: 0 7%;
   margin-top: 88px;
   font-size: 20px;
   color: #2F2F2F;
@@ -290,17 +288,18 @@ ul input:focus{
 }
 .zagolovok_sust{
   display: flex;
-  width: 100%;
   justify-content: space-between;
-}
-.container999{
-  margin-right: 3%;
 }
 .container_sust{ 
   margin: 0 7%;
   display: flex;
   margin-top: 40px;
   justify-content: space-between;        /*редактировать, в зависимости от разрешения*/ 
+}
+.sust_container .container1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .transparency{
   width: 536px;
@@ -507,7 +506,7 @@ ul input:focus{
   background-color: rgba(109, 109, 109, 0.4);
 }
 .container1{
-  margin-left: 7%;
+  margin: 0 7%;
   margin-bottom: 32px;
   font-size: 32px;
 }
@@ -558,8 +557,7 @@ ul input:focus{
   margin-top: 170px;
 }
 .boxes_container2{
-  margin-left: 7%;
-  margin-right: 7%;
+  margin: 0 7%;
   display: flex;
   justify-content: space-between;
 }
@@ -741,9 +739,6 @@ ul input:focus{
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.container9{
-  margin-right: 7%;
 }
 .boxes_container3{
   margin-left: 7%;
@@ -1008,7 +1003,7 @@ ul input:focus{
 .boxes_container5{
   display: flex;
   margin-left: 7%;
-  margin-right: 6%;
+  margin-right: 7%;
   margin-top: 40px;
   justify-content: space-between;
 }
