@@ -70,10 +70,6 @@ nav ul{
   gap: 32px;
   align-items: center;
 }
-nav p{
-  align-content: center;
-  font-size: 14px;
-}
 nav li{
   align-content: center;
   font-size: 14px;
